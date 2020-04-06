@@ -1,0 +1,214 @@
+
+body
+{
+  background-color: #ffe3ed;
+}
+
+
+         /*TITLE SECTION */
+#title
+{
+  background-color: #ff4c68;
+}
+.navbar-brand
+{
+  font-size: 3rem;
+  font-family: "Ubuntu";
+}
+.navbar-nav
+{
+  font-family: "Ubuntu";
+}
+.nav-item
+{
+  padding: 0 1rem;
+}
+.navbar
+{
+  padding: 0 0 5rem 0;
+}
+.container-fluid
+{
+  padding: 3% 15% 12% 15% ;
+}
+h1
+{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight:900px;
+  color: #fff;
+  padding-bottom: 3rem;
+}
+.img
+{
+  padding-top: 5%;
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+}
+.download
+{
+  margin-right: 10px;
+  font-family: "Ubuntu";
+}
+
+       /*FEATURES SECTION */
+#features
+{
+  padding: 7% 10%;
+  background-color: #ffe3ed;
+  position: relative;
+
+}
+.feature-box
+{
+  text-align: center;
+  padding: 5%;
+}
+h3
+{
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+}
+p
+{
+    color: #5f6769;
+  line-height: 1;
+  padding:1rem;
+  font-size: 1rem;
+}
+.icon
+{
+  color: #ff8260;
+  margin-bottom: 1rem;
+}
+.icon:hover
+{
+  color: #ff4c68;
+}
+
+
+         /*TESTIMONIALS SECTION */
+#testimonials
+{
+  text-align: center;
+  background-color: #ff8260;
+  color: #fff;
+}
+.carousel-item
+{
+    padding: 7% 15%;
+}
+h2
+{
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 2;
+}
+.test-img
+{
+width: 20%;
+border-radius: 100px;
+margin: 20px;
+}
+
+
+           /*PRESS SECTION */
+#press
+{
+  background-color: #ff8260;
+  text-align: center;
+}
+.press-img
+{
+  padding: 20px 20px 50px 10px;
+  width: 15%;
+}
+
+
+       /*PRICING SECTION */
+#pricing
+{
+  padding: 100px;
+  text-align: center;
+}
+.pricing-col
+{
+  padding: 3% 2%;
+}
+.card-header
+{
+  background-color: #ff6666;
+}
+.card-body
+{
+  background-color: #dcd6f7;
+  color: #5f6769;
+}
+.card-body-head
+{
+  color: black;
+}
+
+
+          /*CTA SECTION */
+#cta
+{
+  background-color: #ff4c68;
+  text-align: center;
+  padding-bottom: 5%;
+}
+.cta-head
+{
+  font-family: "Montserrat";
+  font-weight: 900;
+  line-height: 2;
+  color: #fff;
+  text-align: center;
+  padding: 10% 30% 5%;
+}
+
+
+       /*FOOTER SECTION */
+#footer
+{
+  text-align: center;
+  padding: 5% 0 2% 0;
+}
+.iconf
+{
+  padding: 0 1% 1%;
+}
+.iconf:hover
+{
+  color: #ff4c68;
+}
+
+
+
+      /*MEDIA MOBILE SECTION */
+@media (max-width: 1028px)
+{
+  .img
+  {
+    position: static;
+    transform: rotate(0deg);
+  }
+  h1
+  {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  h3
+  {
+    text-align: center;
+    font-size: 2rem;
+  }
+  .download
+  {
+    text-align: center;
+  }
+
+}
